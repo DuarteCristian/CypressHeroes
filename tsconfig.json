@@ -1,0 +1,13 @@
+{
+    "include": [
+        "src",
+        "cypress"
+    ],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": true
+    }
+}
