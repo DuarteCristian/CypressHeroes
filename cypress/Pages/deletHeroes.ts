@@ -9,7 +9,6 @@ class deletHeroes {
     }
     deletHeroes() {
         cy.contains('Capitão América').parent().find(this.selectorsList().deleteButton).click()
-        // cy.get(this.selectorsList().deleteButton).eq(0).click();
         cy.get(this.selectorsList().buttonYes).eq(1).click();
 
     }

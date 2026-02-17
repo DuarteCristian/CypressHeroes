@@ -1,5 +1,5 @@
 import Prisma from '@prisma/client';
-
+import './support/data';
 describe('home page', () => {
   beforeEach(() => {
     cy.createHero();
