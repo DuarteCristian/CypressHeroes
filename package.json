@@ -30,7 +30,9 @@
   "devDependencies": {
     "concurrently": "^7.6.0",
     "cypress-file-upload": "^5.0.8",
-    "rimraf": "^4.1.0"
+    "rimraf": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "prisma": {
     "schema": "server/prisma/schema.prisma"
